@@ -1,0 +1,9 @@
+# Ignition / Inductive Automation ignore rules
+.ignition/
+*.gwbk
+*.bak
+data/
+projects/*/ignition/
+*.log
+.DS_Store
+Thumbs.db
