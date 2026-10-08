@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  gateway:
+    image: inductiveautomation/ignition:8.3.1
+    container_name: HENN-IGN
+    hostname: ignition-henn
+    ports:
+      - 8090:8088
+    volumes:
+      # ZMĚNA: Místo názvu volume odkazujeme na lokální složku ./data v adresáři projektu
+      - ./data:/usr/local/bin/ignition/data
+    networks:
+      - henn_ignet
+    environment:
+      - IGNITION_EDITION=standard
+      - GATEWAY_ADMIN_USERNAME=admin
+      - GATEWAY_ADMIN_PASSWORD=password
+      - ACCEPT_IGNITION_EULA=Y
+    command:
+      -n HENN-IGN
+      -m 2048
+      --
+      -Dignition.config.mode=ATS_Dev      # Deployment mode 
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: HENN-SQL
+    hostname: sql-henn
+    ports:
+      - 1435:1433
+    environment:
+      - ACCEPT_EULA=Y
+      - SA_PASSWORD=password
+    volumes:
+      - henn-sql_data:/var/opt/mssql
+    networks:
+      - henn_ignet
+
+volumes:
+  # henn-ign_data už zde nemusí být, protože používáme přímou složku ./data
+  henn-sql_data:
+    external: false
+
+networks:
+  henn_ignet:
+    driver: bridge
