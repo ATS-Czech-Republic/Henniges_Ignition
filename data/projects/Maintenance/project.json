@@ -1,0 +1,7 @@
+{
+  "title": "Henniges maintenance",
+  "description": "Mobile app for maintenance",
+  "enabled": true,
+  "inheritable": false,
+  "parent": "Global"
+}

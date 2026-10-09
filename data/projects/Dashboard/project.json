@@ -1,0 +1,7 @@
+{
+  "title": "Henniges maintenance",
+  "description": "Web page for dashboard",
+  "enabled": true,
+  "inheritable": false,
+  "parent": "Global"
+}

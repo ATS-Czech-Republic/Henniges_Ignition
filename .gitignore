@@ -3,6 +3,9 @@
 *.gwbk
 *.bak
 
+# Only project be commit
+data/*
+!data/projects/
 
 *.log
 .DS_Store
