@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "oszillograph.png"
+  ],
+  "attributes": {
+    "width": 16,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "import",
+      "timestamp": "2026-10-09T06:47:04Z"
+    },
+    "size": 422,
+    "lastModificationSignature": "2354848cbd89409c34e7abe8f8ed1bc37c3313b37066c3f9cc65bbb039c5e23d",
+    "height": 16
+  }
+}

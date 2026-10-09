@@ -3,8 +3,6 @@
 *.gwbk
 *.bak
 
-data/*
-!data/projects/
 
 *.log
 .DS_Store

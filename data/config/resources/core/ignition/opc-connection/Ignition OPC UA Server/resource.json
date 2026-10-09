@@ -1,0 +1,18 @@
+{
+  "scope": "A",
+  "description": "Default \"loopback\" connection to Ignition\u0027s OPC UA server",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "config.json"
+  ],
+  "attributes": {
+    "lastModification": {
+      "actor": "unknown",
+      "timestamp": "2026-10-09T06:47:06Z"
+    },
+    "uuid": "e3ba01f4-4312-41b6-86cf-3f150f76de63",
+    "lastModificationSignature": "ac524212a467c614f902bbcfca8a315dd9985dd2f5eb172633ef66b5cd33aa02"
+  }
+}
