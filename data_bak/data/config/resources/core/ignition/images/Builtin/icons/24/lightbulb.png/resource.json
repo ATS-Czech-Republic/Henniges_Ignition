@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "lightbulb.png"
+  ],
+  "attributes": {
+    "width": 24,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "import",
+      "timestamp": "2026-10-08T13:17:38Z"
+    },
+    "size": 626,
+    "lastModificationSignature": "9501fa767975bf8d1cf0e4a4d5f76b462e55be89379708949505d5b94e4aa97a",
+    "height": 24
+  }
+}

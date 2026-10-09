@@ -1,0 +1,272 @@
+{
+  "custom": {
+    "enable": true
+  },
+  "params": {},
+  "propConfig": {
+    "custom.enable": {
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "width": 767
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "EmbeddedView_4"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.enable": {
+            "binding": {
+              "config": {
+                "path": "view.custom.enable"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "title": "Text Field",
+            "value": "dsfgsdf"
+          },
+          "path": "ATS Global/Components/FL Inputs/Text Field",
+          "useDefaultViewHeight": true,
+          "useDefaultViewWidth": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_0"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.enable": {
+            "binding": {
+              "config": {
+                "path": "view.custom.enable"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "options": [
+              {
+                "label": "Value1 sdfasdfsafsdaf dsafsdfasd",
+                "value": 1
+              },
+              {
+                "label": "Value2",
+                "value": 2
+              },
+              {
+                "label": "value2",
+                "value": 3
+              }
+            ],
+            "title": "Dropdown",
+            "value": null
+          },
+          "path": "ATS Global/Components/FL Inputs/Dropdown",
+          "useDefaultViewHeight": true,
+          "useDefaultViewWidth": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_2"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.enable": {
+            "binding": {
+              "config": {
+                "path": "view.custom.enable"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "format": "0,0.##",
+            "maxVal": null,
+            "minVal": null,
+            "title": "Numeric Value",
+            "value": 0
+          },
+          "path": "ATS Global/Components/FL Inputs/Numeric Entry Field",
+          "useDefaultViewHeight": true,
+          "useDefaultViewWidth": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_6"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.enable": {
+            "binding": {
+              "config": {
+                "path": "view.custom.enable"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "switch": true,
+            "title": "Toggle"
+          },
+          "path": "ATS Global/Components/FL Inputs/Toggle Switch",
+          "useDefaultViewHeight": true,
+          "useDefaultViewWidth": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_3"
+        },
+        "position": {
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.enable": {
+            "binding": {
+              "config": {
+                "path": "view.custom.enable"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "title": "Start Date",
+            "value": null
+          },
+          "path": "ATS Global/Components/FL Inputs/Date",
+          "useDefaultViewHeight": true,
+          "useDefaultViewWidth": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView"
+        },
+        "position": {
+          "grow": 1,
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.enable": {
+            "binding": {
+              "config": {
+                "path": "view.custom.enable"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "dateRangePeriodIndex": -1,
+            "endDate": {
+              "$": [
+                "ts",
+                192,
+                1777298531528
+              ],
+              "$ts": 1776052800000
+            },
+            "startDate": {
+              "$": [
+                "ts",
+                192,
+                1777298531528
+              ],
+              "$ts": 1775966400000
+            }
+          },
+          "path": "ATS Global/Components/FL Inputs/Date Range w Spinner",
+          "useDefaultViewHeight": true,
+          "useDefaultViewWidth": true
+        },
+        "type": "ia.display.view"
+      },
+      {
+        "meta": {
+          "name": "EmbeddedView_1"
+        },
+        "position": {
+          "grow": 1,
+          "shrink": 0
+        },
+        "propConfig": {
+          "props.params.enable": {
+            "binding": {
+              "config": {
+                "path": "view.custom.enable"
+              },
+              "type": "property"
+            }
+          }
+        },
+        "props": {
+          "params": {
+            "dateRangePeriodIndex": -1,
+            "endDate": {
+              "$": [
+                "ts",
+                192,
+                1777298531528
+              ],
+              "$ts": 1776052800000
+            },
+            "startDate": {
+              "$": [
+                "ts",
+                192,
+                1777298531528
+              ],
+              "$ts": 1775966400000
+            }
+          },
+          "path": "ATS Global/Components/FL Inputs/Date Range",
+          "useDefaultViewHeight": true,
+          "useDefaultViewWidth": true
+        },
+        "type": "ia.display.view"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column"
+    },
+    "type": "ia.container.flex"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "scope": "A",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "id_card_add.png"
+  ],
+  "attributes": {
+    "width": 24,
+    "format": "PNG",
+    "lastModification": {
+      "actor": "import",
+      "timestamp": "2026-10-08T13:17:38Z"
+    },
+    "size": 517,
+    "lastModificationSignature": "0670e8f7d39b4b17f0455860619db267bdfe709fec8631898288bf6cd33c2c0f",
+    "height": 24
+  }
+}

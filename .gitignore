@@ -2,8 +2,10 @@
 .ignition/
 *.gwbk
 *.bak
-data/
-projects/*/ignition/
+
+data/*
+!data/projects/
+
 *.log
 .DS_Store
 Thumbs.db

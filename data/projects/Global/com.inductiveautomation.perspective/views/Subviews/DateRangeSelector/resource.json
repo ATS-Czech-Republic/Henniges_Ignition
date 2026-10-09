@@ -1,0 +1,18 @@
+{
+  "scope": "G",
+  "documentation": "change log:\n----------------\n14.10.2025\tATS_sasinp\tadded buttons forward/backward",
+  "version": 1,
+  "restricted": false,
+  "overridable": true,
+  "files": [
+    "view.json",
+    "thumbnail.png"
+  ],
+  "attributes": {
+    "lastModificationSignature": "9b1fa6af3e69ec7c8e98a80fc4c993815ed6b5f2e0f7e78ff32b7ec89e3101c5",
+    "lastModification": {
+      "actor": "admin",
+      "timestamp": "2026-10-09T08:08:07Z"
+    }
+  }
+}
